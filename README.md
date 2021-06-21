@@ -1,4 +1,3 @@
-# WARNING: The code is under construction and the documentation still lacking. #
 ```
       _   _ ______ __  __  ____             .                 
      | \ | |  ____|  \/  |/ __ \           ":"
@@ -8,14 +7,16 @@
      |_| \_|______|_|  |_|\____/    -~^~^~^~^~^~^~^~^~^~^~^~^~
                                       -~^~^ ~^~ ^~^~^ ~^~^-
 
-             ## v0.9 ##             Mobilis adversus flumine. 
+           ## pre-alpha ##           Mobilis adversus flumine. 
 ```
 
-# nemo (release candidate v0.9) #
+# nemo (pre-alpha version) #
 
 Nemo is a lightweight, easy to understand (magneto)-hydrodynamics code
 leveraging the robustness of 'Finite Volume' (FV) methods and the
 efficiency of nodal 'Discontinuous Galerkin Spectral Element Methods' (DGSEM).
+
+NOTE: The code is experimental and documentation is lacking.
 
 ## Installation ##
 
