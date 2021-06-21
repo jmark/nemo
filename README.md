@@ -60,6 +60,15 @@ vim nemo.sh
 
 If successful there are now a 'build' and an 'output' directory. Happy simulating!
 
+## Third Parties ##
+
+Nemo either uses or links to following third party softare:
+
+    - fypp: https://github.com/aradi/fypp
+    - HDF5: https://www.hdfgroup.org/solutions/hdf5/
+    - p4est: https://www.p4est.org/
+    - FMM3D: https://github.com/flatironinstitute/FMM3D
+
 ## Code Structure ##
 
 The directory structure of the sources is simple and intuitively named. It contains:
