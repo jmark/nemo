@@ -62,7 +62,7 @@ If successful there are now a 'build' and an 'output' directory. Happy simulatin
 
 ## Third Parties ##
 
-Nemo either uses or links to following third party softare:
+Nemo either uses or links to following third party software:
 
     - fypp: https://github.com/aradi/fypp
     - HDF5: https://www.hdfgroup.org/solutions/hdf5/
