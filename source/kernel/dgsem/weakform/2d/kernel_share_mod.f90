@@ -66,9 +66,6 @@ subroutine init
     use utils_mod, only: kronproduct
     use utils_mod, only: eyeproduct
 
-    use interpol_mod, only: LegendreGaussNodesAndWeights
-    use interpol_mod, only: LegendreGaussLobattoNodesAndWeights
-
     use kernel_operators_mod
     use linalg_mod, only: invert
     use interpol_mod, only: InterfaceNodes
@@ -102,6 +99,7 @@ subroutine init
     !! --------------------------------------------------------------------- !!
 
     call LegendreGaussNodesAndWeights(N_NODES-1,dgnodes,dgweights)
+    !call LegendreGaussLobattoNodesAndWeights(N_NODES-1,dgnodes,dgweights)
     call EquidistantNodesAndWeights(N_NODES-1,fvnodes,fvweights)
 
     nodes = 0.5_dp*dgnodes

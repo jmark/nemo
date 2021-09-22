@@ -125,7 +125,7 @@ configuration files read in at runtime. All configuration is done via Fortran
 files and via compile-time pragmas (conditional compilation). That means any
 changes in the setup definition are followed by an ordinary rebuild. This
 is not a problem since building of nemo is slick and fast due to proper
-module dependency resolution and parallelization.
+module dependency resolution and parallel compilation.
 
 The building of nemo consists of three phases: 'preprocessing', 'source code
 filtering' and the actual 'compilation' with the Fortran compiler. The
