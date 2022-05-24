@@ -24,8 +24,7 @@ echo "Modify script beforehand! Carefully read every line and adapt accordingly!
 
 export NEMO_HOME="${HOME}/projects/nemo"
 export NEMO_SITE="${NEMO_HOME}/sites/workstation/linux/gcc"
-
-export SETUP_PATH="${NEMO_HOME}/source/setups/euler/3d/boss-bodenheimer"
+export NEMO_SETUP="${NEMO_HOME}/source/setups/euler/3d/boss-bodenheimer"
 
 # =========================================================================== #
 # =========================================================================== #
@@ -77,7 +76,7 @@ FCFLAGS += -lfmm3d
 EOT
 )
 
-echo "${FCFLAGS}" | "${SETUP_PATH}/preproc.py"
+echo "${FCFLAGS}" | "${NEMO_SETUP}/preproc.py"
 
 # =========================================================================== #
 # =========================================================================== #

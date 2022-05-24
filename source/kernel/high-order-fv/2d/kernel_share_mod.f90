@@ -22,8 +22,6 @@ real(dp), save :: coarseTam(N_NODES,N_NODES,3,8)
 real(dp), save :: nodes(N_NODES)
 real(dp), save :: weights(N_NODES)
 
-!! ------------------------------------------------------------------------- !!
-
 contains
 
 subroutine hook_init_400

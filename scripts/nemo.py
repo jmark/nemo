@@ -20,7 +20,12 @@
 
 from __future__ import print_function
 import sys,os,re,shutil,filecmp,tempfile,glob
-from collections import MutableSet
+
+try:
+    from collections import MutableSet
+except ImportError:
+    from collections.abc import MutableSet
+
 import fileinput
 import fnmatch
 

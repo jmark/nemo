@@ -86,8 +86,8 @@ real(dp), parameter :: pivot = 0.0_dp
 
 !! -------------------------------------------------------------------------- !!
 
-integer, parameter :: mesh_minlevel = 7
-integer, parameter :: mesh_maxlevel = 7
+integer, parameter :: mesh_minlevel = 5
+integer, parameter :: mesh_maxlevel = 5
 
 real(dp), parameter :: setup_amr_threshold_refine = -6
 real(dp), parameter :: setup_amr_threshold_coarsen = -7
